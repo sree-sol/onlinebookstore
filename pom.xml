@@ -18,6 +18,21 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	
 	</properties>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Book Store Nexus Repository</name>
+	      <url>http://35.173.234.235:8081/repository/bookstore-snapshot/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Book Store Snapshot Nexus Repository </name>
+	      <url>http://35.173.234.235:8081/repository/bookstore-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<finalName>onlinebookstore</finalName>
