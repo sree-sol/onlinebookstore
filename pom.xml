@@ -6,6 +6,11 @@
 	<artifactId>onlinebookstore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<properties>
+		<sonar.host.url>http://3.236.110.171:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Password</sonar.password>
+	</properties>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<finalName>onlinebookstore</finalName>
