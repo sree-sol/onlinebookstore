@@ -6,11 +6,6 @@
 	<artifactId>onlinebookstore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<plugin>
-   	 <groupId>org.codehaus.mojo</groupId>
-  	 <artifactId>sonar-maven-plugin</artifactId>
-   	 <version>3.6.3</version>
-	</plugin>
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
@@ -27,6 +22,11 @@
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<finalName>onlinebookstore</finalName>
 		<plugins>
+		<plugin>
+   	 <groupId>org.codehaus.mojo</groupId>
+  	 <artifactId>sonar-maven-plugin</artifactId>
+   	 <version>3.6.3</version>
+		</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
