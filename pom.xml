@@ -10,6 +10,7 @@
    	 <groupId>org.codehaus.mojo</groupId>
   	 <artifactId>sonar-maven-plugin</artifactId>
    	 <version>3.6.3</version>
+	</plugin>
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
@@ -20,7 +21,7 @@
 		<sonar.password>Password</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-	</plugin>
+	
 	</properties>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
