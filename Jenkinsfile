@@ -6,6 +6,9 @@ pipeline {
               	    echo "cloning repository" 
               	    echo "repo cloned successfully"  
               	    }  
-         	    } 
+         	    }
+            stage("Build the code"){
+	    echo "code build done"
+	    }
         }
 }
